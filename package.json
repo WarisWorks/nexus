@@ -1,0 +1,33 @@
+{
+  "name": "nexus-interactive-universe",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 3000",
+    "build": "next build",
+    "start": "node scripts/serve.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.2",
+    "@react-three/postprocessing": "3.2.0",
+    "gsap": "3.15.0",
+    "lenis": "1.3.27",
+    "lucide-react": "0.468.0",
+    "motion": "12.43.0",
+    "next": "16.4.2",
+    "postprocessing": "6.39.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.180.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.9.0"
+  }
+}
